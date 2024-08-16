@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Charletas House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            margin: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5em;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 1em;
+        }
+        .video-container iframe {
+            width: 100%;
+            max-width: 300px;
+            height: 200px;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 1em;
+        }
+        .product {
+            background-color: #fff;
+            padding: 1em;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 300px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a nuestro humilde espacio</h1>
+    </header>
+
+    <nav>
+        <a href="#videos">Nuestras Aventuras</a>
+        <a href="#ropa">Venta de Ropa</a>
+    </nav>
+
+    <div class="container">
+        <section id="videos">
+            <h2>Mis Videos de YouTube</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/5NENWiUo67s" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/NKSlJfNswnU" frameborder="0" allowfullscreen></iframe>
+                <iframe 
+src="https://www.youtube.com/embed/jZ-u8rafJXM" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="ropa">
+            <h2>Venta de Ropa</h2>
+            <div class="product-container">
+                <div class="product">
+<a href="https://lchstore.bigcartel.com/product/catch-dreams-travel-s-collection" target="_blank">
+                    <img src="https://assets.bigcartel.com/product_images/3efba239-506f-4579-8444-ead1d40e81ae/unisex-classic-tee-black-front-66bb944a0ae7f.jpg?auto=format&fit=max&w=800" alt="Producto 1">
+                    <h3>Calavera Viajera</h3>
+                    <p>Catch Dreams - Travels Collection.</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product">
+<a href="https://lchstore.bigcartel.com/product/better-smile-travel-s-collection" target="_blank">
+                    <img src="https://assets.bigcartel.com/product_images/06d2dace-3fcd-4dc0-b98e-6570c35388c1/all-over-print-recycled-unisex-sweatshirt-white-front-66bb9780b70f9.jpg?auto=format&fit=max&w=800" alt="Producto 2">
+                    <h3>Sudadera Calavera</h3>
+                    <p>Better Smile - Travels Collection.</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product">
+<a href="https://lchstore.bigcartel.com/product/camiseta-unisex-logo-edit" target="_blank">
+                    <img src="https://assets.bigcartel.com/product_images/b5cd13fb-4c82-4fe9-acf8-71bf530e0bb9/unisex-classic-tee-sport-grey-right-front-66bbab1d67579.jpg?auto=format&fit=max&w=800" alt="Producto 3">
+                    <h3>LCH Basics</h3>
+                    <p>Camiseta Unisex - LOGO EDIT.</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Página Personal. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
